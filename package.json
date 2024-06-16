@@ -1,0 +1,21 @@
+{
+  "name": "lvllvl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "php build.php",
+    "start": "cd dist && serve -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayesmaker/lvllvl.git"
+  },
+  "author": "james",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayesmaker/lvllvl/issues"
+  },
+  "homepage": "https://github.com/hayesmaker/lvllvl#readme"
+}

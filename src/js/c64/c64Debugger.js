@@ -402,10 +402,14 @@ C64Debugger.prototype = {
   },
 
 
-
+  /**
+   * @method readByte
+   * @param address {number} -//todo describe number format     dd00 = c64_cpuReadNS(0xdd00);
+   * @returns {number} -//todo describe number format
+   */
   readByte: function(address) {
     var value = c64_cpuReadNS(address);
-
+    console.log('ReadByte: ' + address.toString() + ' = ' + value.toString(), 'returns:', value & 0xff);
     return value & 0xff;
   },
 
